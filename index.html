@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+    <body>
+        <div class="main">
+            <div class="overlay">
+                <div class="title">Get Your CountDown</div>
+                <!-- <div class="title1" id="end-date">14 January 2023 2.00 AM</div> -->
+                <div class="box">
+                <div class="date1">
+                    <div id="now">
+                    <input type="text" id="now-time" placeholder="14 March 2023 06:10:09 AM">
+                    <br>
+                    <label>Now Date</label>
+                  </div>
+              </div>
+                <div class="dates">
+                    <div id="end">
+                    <input type="text" id="end-time" placeholder="29 March 2023 06:10:09 AM">
+                    <br>
+                    <label>End Date</label>
+                  </div>
+              </div>
+            </div>
+              <button id="btn">Start</button>
+                <div class="col">
+                    <div>
+                        <input type="number" id="days" readonly value="00">
+                        <br>
+                        <label for="">Days</label>
+                    </div>
+                    <div>
+                        <input type="number" id="hours" readonly value="00">
+                        <br>
+                        <label for="">Hours</label>
+                    </div>
+                    <div>
+                        <input type="number" id="minutes" readonly value="00">
+                        <br>
+                        <label for="">Minutes</label>
+                    </div>
+                    <div>
+                        <input type="number" id="seconds" readonly value="00">
+                        <br>
+                        <label for="">Seconds</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
